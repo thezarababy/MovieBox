@@ -42,13 +42,19 @@ h1{
     height: vh;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    padding: 40px;
 }
 p{
     color: white;
+    width: 400px;
+    line-height: 1.5;
+    margin: 20px auto;
 }
 h3{
    color:#007BFF; 
    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 h3:hover{
     font-size: 25px;
