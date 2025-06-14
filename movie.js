@@ -9,7 +9,7 @@ const browseMovie = document.getElementById('browseMovie');
   for(i=0; i<20; i++ ){
     const movie = data.results[i];
     const movieHolder = document.createElement("div");
-    const imgSrc= `https://image.tmdb.org/t/p/w500${movie.backdrop_path}`;
+    const imgSrc= `https://image.tmdb.org/t/p/w400${movie.backdrop_path}`;
     movieHolder.innerHTML=`
     <img src=" ${imgSrc}"/>
     <h3> ${movie.title}</h3>
